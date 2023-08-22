@@ -1,0 +1,48 @@
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Juego del 21</h1>
+    </header>
+    <main>
+        <section class="container">
+            <form action="">
+             <div class="card" id="player">
+             </div>
+             <div class="card2" id="boot">
+           </div>
+           <div id="cartasdeljugador">Baraja del Jugador:
+             </div>
+           <div id="cartasdelamaquina">Baraja de la Máquina:
+           </div>
+           <div class="botones">
+                <button type="button" class="btn-neon" onClick="Cartas21.empezar()">Empezar</button> <br>
+                <button type="button" class="btn-neon"  onclick="Cartas21.jugador()">Pedir"Jugador"</button> 
+                <button type="button" class="btn-neon" onClick="Cartas21.boot()">Pedir"Maquina"</button>
+                <button type="button" class="btn-neon" onClick="Cartas21.reiniciar()">Reinicar Puntos</button> <br>
+                <button type="button" class="btn-neon" onClick="Cartas21.terminar()">Terminar partida</button> <br>
+
+             </div>
+             <div id="resp">
+                 Resultado De La Partida
+             </div>
+          </form>
+
+ 
+        </section>
+      
+    </main>
+    <footer>
+        <h6>Todos los derechos reservados - Julio Soft.</h6>
+    </footer>
+    <script src="./js/21GAME.js" ></script>
+</body>
+</html>

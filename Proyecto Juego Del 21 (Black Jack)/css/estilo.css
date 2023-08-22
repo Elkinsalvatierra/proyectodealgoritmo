@@ -1,0 +1,252 @@
+body {
+    font-family:consolas;
+    background-image:url(../image/cropped-3840-2160-210569.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 2px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 140vh;
+    
+    
+  }
+h1{
+    color: #f2f2f2;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 10px;
+    font-size: 34px;
+    text-shadow: 0 0 5px rgb(45, 28, 199), 0 0 15px rgb(248, 248, 244), 0 0 30px rgb(140, 7, 7);
+}
+.containero{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    gap: 5                                                                                                                                                                                                                  px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 10px auto;
+
+    border-radius: 10px;
+    padding: 30px;
+
+
+}
+  
+.btn-neon{
+ font-family: monospace;
+ letter-spacing: 8px;
+ margin: 0;
+ position: relative;
+ text-shadow: 0 0 5px yellow, 0 0 15px yellow, 0 0 30px yellow;
+ display: inline-block;
+ justify-content: center;
+ align-items:end;
+ background-color: #181818;
+ border-radius: 10px;
+ padding: 30px;
+ border: 2px solid white;
+ 
+ text-align: center;
+ color: white;
+ padding: 15px 30px;
+ color: #fffcfc;
+ letter-spacing: 4px;
+ text-decoration: none;
+ font-size: 24px;
+ overflow: hidden;
+ transition: 0.2s;
+}
+.btn-neon:hover{
+  background: #374331;
+ ;
+ transition-delay: 0.1s;
+}
+h6 {
+    color: #7b1818;
+    text-align: center;
+}
+  
+input {
+    width: 90%;
+     padding: 15px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: 2px solid #000000;
+}
+.card {
+    width: 150px;
+    height: 190px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../image/diamante.png);
+    display: block; 
+    margin: 0 auto;
+    text-align: center;
+    height: vh;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    position: center;
+    display: inline-flex;
+    margin: 10px;
+    text-align: flex;
+    transform-style: preserve-3d;
+    transition: transform 0.3s;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+}
+
+.card2 {
+  width: 150px;
+  height: 190px;
+    background-color: rgb(122, 106, 106);
+    background-image: url(../image/cartanegra4.png);
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: inline-flex;
+    margin: 10px;
+    transform-style: preserve-3d;
+    align-items: center; 
+    justify-content: center;
+    font-size: 38px; 
+}
+.neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #c9a70f,
+        0 0 10px #92901e,
+        0 0 21px #fcd423,
+        0 0 42px yellow,
+        0 0 82px #0fa,
+        0 0 92px rgb(204, 0, 255),
+        0 0 102px #0fa,
+        0 0 151px rgb(82, 219, 48);
+  }
+  body {
+    font-size: 24px;
+    font-family: "Vibur", sans-serif;
+    background-color: #000000;
+  }  
+  
+  h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+    
+  h1 {
+      font-size: rem;
+  }
+  
+  .container {
+    margin-top: 20px;
+    
+  }
+  .neon2 {
+    font-family: monospace;
+    letter-spacing: 8px;
+    margin: 0;
+    font-size: 100px;
+    text-shadow: 0 0 5px yellow, 0 0 15px yellow, 0 0 30px yellow;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    gap: 15px;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 10px auto;
+    
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 1px 10px rgba(219, 109, 109, 0.5);
+    font-size: 32px;
+    border: 2px solid white;
+    box-shadow: inset 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(226, 216, 216);
+    text-align: center;
+    color: white;
+  }
+  #resp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    color:#fff;
+    font-weight: 900;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 24px;
+    box-shadow: 0 5px 10px rgba(12, 2, 2, 0.5);
+    text-shadow: 0 0 5px rgb(45, 28, 199), 0 0 15px rgb(248, 248, 244), 0 0 30px rgb(140, 7, 7); 
+  }
+ #player,
+ #boot{
+  transition: background-color 0.1s ease, box-shadow 0.3s ease;
+   text-shadow: 0 0 5px rgb(219, 97, 9), 0 0 15px rgb(211, 221, 15), 0 0 30px rgb(203, 151, 29);
+    margin: 4px;
+    padding: 4px;
+   border-radius: 5px;
+    font-size: 50px;
+    position: relative
+ }
+
+ #cartasdeljugador,
+#cartasdelamaquina {
+  transition: background-color 0.1s ease, box-shadow 0.3s ease;
+   text-shadow: 0 0 5px rgb(254, 254, 254), 0 0 15px rgb(248, 247, 253), 0 0 30px rgb(73, 113, 118);
+    margin: 4px;
+    padding: 4px;
+   border-radius: 5px;
+    font-size: 26px;
+    position: relative
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.botones {
+  margin-top: 20px;
+
+}
+
+/* Estilos para los botones */
+.btn-neon {
+  padding: 12px 22px;
+  font-size: 16px;
+  margin: 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: rgb(24, 24, 24);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  font-size: 22px;
+}
+
+.btn-neon:hover {
+  background-color: rgb(255, 0, 238);
+  box-shadow: 0 0 20px rgb(194, 16, 210), 0 0 40px rgb(231, 15, 184), 0 0 80px rgb(0, 123, 255);
+}
